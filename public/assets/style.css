@@ -1,0 +1,85 @@
+body {
+    background: #fff;
+    font-family: 'Comic Sans MS';
+    font-size: 16px;
+    color: #666;
+}
+
+#container {
+    width: 500px;
+    height: 780px;
+    margin: 0 auto;
+    background-color: #898b91;
+    padding: 20px;
+    box-sizing: border-box;
+    border-top-left-radius: 1.2em;
+    border-top-right-radius: 1.2em;
+    border-bottom-left-radius: 1.2em;
+    border-bottom-right-radius: 1.2em;
+}
+
+#container form:after {
+    margin: 0;
+    content: '';
+    display: block;
+    clear: both;
+}
+
+input[type="text"] {
+    width: 64%;
+    float: left;
+    padding: 13px 30px;
+    background: #F1F1F1;
+    border: none;
+    border-top-left-radius: 1.2em;
+    border-bottom-left-radius: 1.2em;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #666;
+    outline: none;
+}
+
+button {
+  width: 22%;
+  float: right;
+  padding: 13px 24px;
+  background: orange;
+  border: none;
+  border-top-right-radius: 1.2em;
+  border-bottom-right-radius: 1.2em;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 300;
+  outline: none;
+}
+
+ul {
+    list-style-type: none;
+    display: block;
+    padding: 0;
+    margin: 34px 0 0 0;
+}
+
+li {
+  width: 100%;
+  padding: 12px 24px;
+  margin: 0 0 21px 0;
+  background: #fff;
+  border: 1px solid #F1F1F1;
+  border-radius: 0.3125rem;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #666;
+  outline: none;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+li:hover{
+    text-decoration: line-through;
+}
+
+h1{
+    margin-bottom: 0;
+    text-indent: -10000px;
+}
